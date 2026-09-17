@@ -33,15 +33,16 @@ cd ..
 ```
 
 ### Step 4: Environment Configuration
-Create a `.env` file in the project root directory and paste your API credentials:
+Create a `.env` file in the project root directory and paste your API keys in this exact format:
 ```env
 # Google Gemini API Key
-GEMINI_API_KEY=your_gemini_api_key_here
+GEMINI_API_KEY=AQ.Ab8RN6_YOUR_ACTUAL_GEMINI_API_KEY_HERE
 GEMINI_MODEL=gemini-flash-lite-latest
 
-# Optional Groq Fallback API Keys (comma-separated for key rotation)
-GROQ_API_KEYS=your_groq_key_1,your_groq_key_2,your_groq_key_3
+# Optional Groq Fallback API Keys (comma-separated for multi-key rotation)
+GROQ_API_KEYS=gsk_BayS75Oe_EXAMPLE_KEY1,gsk_W8a6Lqx7_EXAMPLE_KEY2,gsk_vZlXYLe7_EXAMPLE_KEY3
 ```
+
 
 
 
