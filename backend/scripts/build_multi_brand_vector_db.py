@@ -5,59 +5,77 @@ import os
 import gc
 
 def build_multi_brand_db():
-    print("Loading TWCS dataset...")
-    # Load 250,000 rows to capture rich interactions for 30+ top brands
-    twcs_path = "data/twcs/twcs.csv"
-    if not os.path.exists(twcs_path):
-        print(f"Error: {twcs_path} not found.")
-        return
-
-    df = pd.read_csv(twcs_path, nrows=250000)
-    
-    print("Parsing Multi-Brand Q&A pairs...")
-    agent_tweets = df[df['inbound'] == False].dropna(subset=['in_response_to_tweet_id'])
-    customer_tweets = df[df['inbound'] == True]
-    
-    customer_dict = dict(zip(customer_tweets['tweet_id'], customer_tweets['text']))
-    
+    print("Loading dataset for Vector DB construction...")
     documents = []
     metadatas = []
     ids = []
-    
     brand_counts = {}
-    
-    for idx, agent_row in agent_tweets.iterrows():
-        try:
-            in_response_to = int(agent_row['in_response_to_tweet_id'])
-        except ValueError:
-            continue
+
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    corpus_path = os.path.join(base_dir, "data", "train_retrieval_corpus.csv")
+    twcs_path = os.path.join(base_dir, "data", "twcs", "twcs.csv")
+    db_path = os.path.join(base_dir, "data", "chroma_db")
+
+
+    if os.path.exists(corpus_path):
+        print(f"Loading pre-extracted retrieval corpus from {corpus_path}...")
+        cdf = pd.read_csv(corpus_path)
+        for idx, row in cdf.iterrows():
+            c_text = str(row.get("customer_text", "")).strip()
+            a_text = str(row.get("agent_text", "")).strip()
+            brand = str(row.get("brand", "CompanySupport")).strip()
+            if not c_text or not a_text or c_text.lower() == "nan":
+                continue
             
-        if in_response_to in customer_dict:
-            customer_text = str(customer_dict[in_response_to])
-            agent_text = str(agent_row['text'])
-            brand = str(agent_row['author_id'])
-            
-            # Keep per-brand cap at 1500 to keep DB balanced across top 30 brands
             brand_counts[brand] = brand_counts.get(brand, 0) + 1
             if brand_counts[brand] > 1500:
                 continue
-                
-            documents.append(customer_text)
-            metadatas.append({
-                "agent_reply": agent_text,
-                "brand": brand,
-                "tweet_id": str(agent_row['tweet_id'])
-            })
-            ids.append(f"{brand}_{agent_row['tweet_id']}")
             
-    print(f"Extracted {len(documents)} valid Q&A pairs across {len(brand_counts)} brands.")
-    print("Top Indexed Brands:", sorted(brand_counts.items(), key=lambda x: x[1], reverse=True)[:15])
-    
-    del df, agent_tweets, customer_tweets, customer_dict
-    gc.collect()
-    
-    db_path = os.path.join("data", "chroma_db")
+            documents.append(c_text)
+            metadatas.append({
+                "agent_reply": a_text,
+                "brand": brand,
+                "tweet_id": str(row.get("agent_tweet_id", idx))
+            })
+            ids.append(f"{brand}_{idx}")
+        print(f"Loaded {len(documents)} Q&A exemplars from {corpus_path}.")
+    elif os.path.exists(twcs_path):
+        print(f"Parsing raw TWCS dataset from {twcs_path}...")
+        df = pd.read_csv(twcs_path, nrows=250000)
+        agent_tweets = df[df['inbound'] == False].dropna(subset=['in_response_to_tweet_id'])
+        customer_tweets = df[df['inbound'] == True]
+        customer_dict = dict(zip(customer_tweets['tweet_id'], customer_tweets['text']))
+        
+        for idx, agent_row in agent_tweets.iterrows():
+            try:
+                in_response_to = int(agent_row['in_response_to_tweet_id'])
+            except ValueError:
+                continue
+                
+            if in_response_to in customer_dict:
+                customer_text = str(customer_dict[in_response_to])
+                agent_text = str(agent_row['text'])
+                brand = str(agent_row['author_id'])
+                
+                brand_counts[brand] = brand_counts.get(brand, 0) + 1
+                if brand_counts[brand] > 1500:
+                    continue
+                    
+                documents.append(customer_text)
+                metadatas.append({
+                    "agent_reply": agent_text,
+                    "brand": brand,
+                    "tweet_id": str(agent_row['tweet_id'])
+                })
+                ids.append(f"{brand}_{agent_row['tweet_id']}")
+        del df, agent_tweets, customer_tweets, customer_dict
+        gc.collect()
+    else:
+        print("Error: Neither train_retrieval_corpus.csv nor twcs.csv found.")
+        return
+
     os.makedirs(db_path, exist_ok=True)
+
     
     client = chromadb.PersistentClient(path=db_path)
     model = SentenceTransformer("all-MiniLM-L6-v2")
