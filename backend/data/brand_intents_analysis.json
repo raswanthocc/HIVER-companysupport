@@ -1,0 +1,962 @@
+{
+  "AppleSupport": {
+    "total_queries": 1716,
+    "intents": {
+      "technical_issue": 886,
+      "other_unclear": 595,
+      "complaint_poor_experience": 68,
+      "password_reset": 54,
+      "order_delivery_status": 22,
+      "product_service_issue": 19,
+      "account_access_login": 16,
+      "general_information": 15,
+      "subscription_plan": 9,
+      "account_problem": 7,
+      "unauthorized_fraudulent_transaction": 7,
+      "payment_billing_issue": 5,
+      "pricing_charges": 5,
+      "refund_request": 2,
+      "delayed_delivery": 2,
+      "request_for_human_support": 2,
+      "product_information": 1,
+      "verification_identity": 1
+    }
+  },
+  "sprintcare": {
+    "total_queries": 406,
+    "intents": {
+      "other_unclear": 239,
+      "technical_issue": 37,
+      "complaint_poor_experience": 36,
+      "order_delivery_status": 19,
+      "payment_billing_issue": 17,
+      "subscription_plan": 12,
+      "request_for_human_support": 12,
+      "general_information": 9,
+      "unauthorized_fraudulent_transaction": 7,
+      "account_problem": 7,
+      "refund_request": 5,
+      "password_reset": 4,
+      "pricing_charges": 1,
+      "product_service_issue": 1
+    }
+  },
+  "British_Airways": {
+    "total_queries": 691,
+    "intents": {
+      "other_unclear": 430,
+      "technical_issue": 87,
+      "subscription_plan": 32,
+      "delayed_delivery": 23,
+      "complaint_poor_experience": 23,
+      "refund_request": 23,
+      "payment_billing_issue": 21,
+      "pricing_charges": 17,
+      "general_information": 11,
+      "order_delivery_status": 6,
+      "cancellation": 5,
+      "request_for_human_support": 4,
+      "product_service_issue": 4,
+      "account_access_login": 2,
+      "account_problem": 1,
+      "unauthorized_fraudulent_transaction": 1,
+      "password_reset": 1
+    }
+  },
+  "BofA_Help": {
+    "total_queries": 259,
+    "intents": {
+      "other_unclear": 151,
+      "payment_billing_issue": 40,
+      "unauthorized_fraudulent_transaction": 14,
+      "complaint_poor_experience": 12,
+      "technical_issue": 9,
+      "account_problem": 9,
+      "request_for_human_support": 4,
+      "password_reset": 3,
+      "account_access_login": 3,
+      "order_delivery_status": 3,
+      "refund_request": 3,
+      "subscription_plan": 2,
+      "product_service_issue": 2,
+      "general_information": 2,
+      "delayed_delivery": 1,
+      "verification_identity": 1
+    }
+  },
+  "AskLyft": {
+    "total_queries": 176,
+    "intents": {
+      "other_unclear": 96,
+      "technical_issue": 27,
+      "complaint_poor_experience": 20,
+      "payment_billing_issue": 9,
+      "refund_request": 5,
+      "general_information": 5,
+      "unauthorized_fraudulent_transaction": 4,
+      "account_problem": 2,
+      "password_reset": 2,
+      "cancellation": 2,
+      "account_access_login": 1,
+      "subscription_plan": 1,
+      "request_for_human_support": 1,
+      "delayed_delivery": 1
+    }
+  },
+  "sainsburys": {
+    "total_queries": 663,
+    "intents": {
+      "other_unclear": 471,
+      "technical_issue": 65,
+      "order_delivery_status": 34,
+      "payment_billing_issue": 33,
+      "complaint_poor_experience": 20,
+      "pricing_charges": 15,
+      "subscription_plan": 6,
+      "general_information": 5,
+      "account_access_login": 4,
+      "refund_request": 4,
+      "password_reset": 3,
+      "product_service_issue": 2,
+      "unauthorized_fraudulent_transaction": 1
+    }
+  },
+  "Delta": {
+    "total_queries": 572,
+    "intents": {
+      "other_unclear": 371,
+      "technical_issue": 58,
+      "subscription_plan": 38,
+      "delayed_delivery": 22,
+      "request_for_human_support": 15,
+      "payment_billing_issue": 14,
+      "general_information": 13,
+      "complaint_poor_experience": 12,
+      "pricing_charges": 7,
+      "refund_request": 6,
+      "product_service_issue": 6,
+      "password_reset": 4,
+      "order_delivery_status": 2,
+      "product_information": 2,
+      "account_problem": 1,
+      "unauthorized_fraudulent_transaction": 1
+    }
+  },
+  "UPSHelp": {
+    "total_queries": 416,
+    "intents": {
+      "order_delivery_status": 203,
+      "other_unclear": 109,
+      "delayed_delivery": 49,
+      "technical_issue": 11,
+      "complaint_poor_experience": 11,
+      "subscription_plan": 7,
+      "unauthorized_fraudulent_transaction": 6,
+      "payment_billing_issue": 5,
+      "request_for_human_support": 5,
+      "refund_request": 4,
+      "general_information": 3,
+      "product_service_issue": 2,
+      "pricing_charges": 1
+    }
+  },
+  "AirbnbHelp": {
+    "total_queries": 126,
+    "intents": {
+      "other_unclear": 80,
+      "technical_issue": 15,
+      "payment_billing_issue": 10,
+      "account_problem": 5,
+      "refund_request": 4,
+      "account_access_login": 3,
+      "complaint_poor_experience": 2,
+      "unauthorized_fraudulent_transaction": 2,
+      "general_information": 2,
+      "delayed_delivery": 1,
+      "pricing_charges": 1,
+      "password_reset": 1
+    }
+  },
+  "Ask_Spectrum": {
+    "total_queries": 431,
+    "intents": {
+      "other_unclear": 255,
+      "technical_issue": 73,
+      "complaint_poor_experience": 27,
+      "payment_billing_issue": 21,
+      "general_information": 12,
+      "account_problem": 8,
+      "password_reset": 6,
+      "subscription_plan": 6,
+      "pricing_charges": 5,
+      "product_service_issue": 5,
+      "account_access_login": 4,
+      "order_delivery_status": 4,
+      "refund_request": 2,
+      "request_for_human_support": 2,
+      "unauthorized_fraudulent_transaction": 1
+    }
+  },
+  "ChipotleTweets": {
+    "total_queries": 667,
+    "intents": {
+      "other_unclear": 466,
+      "technical_issue": 62,
+      "pricing_charges": 57,
+      "order_delivery_status": 35,
+      "complaint_poor_experience": 19,
+      "payment_billing_issue": 9,
+      "password_reset": 9,
+      "general_information": 4,
+      "refund_request": 3,
+      "subscription_plan": 2,
+      "product_service_issue": 1
+    }
+  },
+  "AmazonHelp": {
+    "total_queries": 4164,
+    "intents": {
+      "other_unclear": 2182,
+      "order_delivery_status": 928,
+      "technical_issue": 280,
+      "refund_request": 163,
+      "payment_billing_issue": 117,
+      "complaint_poor_experience": 96,
+      "unauthorized_fraudulent_transaction": 76,
+      "general_information": 53,
+      "delayed_delivery": 51,
+      "account_problem": 40,
+      "request_for_human_support": 37,
+      "pricing_charges": 31,
+      "product_service_issue": 30,
+      "subscription_plan": 30,
+      "account_access_login": 22,
+      "password_reset": 20,
+      "cancellation": 5,
+      "product_information": 2,
+      "verification_identity": 1
+    }
+  },
+  "TMobileHelp": {
+    "total_queries": 520,
+    "intents": {
+      "other_unclear": 302,
+      "technical_issue": 57,
+      "payment_billing_issue": 40,
+      "order_delivery_status": 23,
+      "complaint_poor_experience": 21,
+      "subscription_plan": 19,
+      "unauthorized_fraudulent_transaction": 11,
+      "general_information": 9,
+      "account_problem": 7,
+      "pricing_charges": 7,
+      "product_service_issue": 5,
+      "password_reset": 5,
+      "request_for_human_support": 4,
+      "account_access_login": 3,
+      "delayed_delivery": 3,
+      "refund_request": 3,
+      "cancellation": 1
+    }
+  },
+  "MicrosoftHelps": {
+    "total_queries": 329,
+    "intents": {
+      "other_unclear": 154,
+      "technical_issue": 114,
+      "password_reset": 10,
+      "order_delivery_status": 9,
+      "account_access_login": 7,
+      "payment_billing_issue": 7,
+      "general_information": 6,
+      "complaint_poor_experience": 5,
+      "account_problem": 4,
+      "product_service_issue": 4,
+      "request_for_human_support": 3,
+      "unauthorized_fraudulent_transaction": 2,
+      "verification_identity": 1,
+      "refund_request": 1,
+      "pricing_charges": 1,
+      "subscription_plan": 1
+    }
+  },
+  "AskTarget": {
+    "total_queries": 333,
+    "intents": {
+      "other_unclear": 181,
+      "order_delivery_status": 44,
+      "payment_billing_issue": 37,
+      "technical_issue": 27,
+      "complaint_poor_experience": 14,
+      "refund_request": 7,
+      "pricing_charges": 4,
+      "unauthorized_fraudulent_transaction": 4,
+      "password_reset": 3,
+      "product_service_issue": 3,
+      "subscription_plan": 3,
+      "delayed_delivery": 2,
+      "cancellation": 1,
+      "account_problem": 1,
+      "account_access_login": 1,
+      "general_information": 1
+    }
+  },
+  "O2": {
+    "total_queries": 585,
+    "intents": {
+      "other_unclear": 339,
+      "technical_issue": 88,
+      "order_delivery_status": 43,
+      "complaint_poor_experience": 33,
+      "payment_billing_issue": 27,
+      "pricing_charges": 14,
+      "subscription_plan": 12,
+      "general_information": 7,
+      "refund_request": 6,
+      "account_problem": 4,
+      "unauthorized_fraudulent_transaction": 4,
+      "product_service_issue": 3,
+      "account_access_login": 2,
+      "delayed_delivery": 2,
+      "password_reset": 1
+    }
+  },
+  "HPSupport": {
+    "total_queries": 132,
+    "intents": {
+      "other_unclear": 84,
+      "technical_issue": 27,
+      "product_service_issue": 5,
+      "general_information": 4,
+      "complaint_poor_experience": 3,
+      "product_information": 2,
+      "pricing_charges": 2,
+      "payment_billing_issue": 2,
+      "order_delivery_status": 1,
+      "account_access_login": 1,
+      "subscription_plan": 1
+    }
+  },
+  "Safaricom_Care": {
+    "total_queries": 362,
+    "intents": {
+      "other_unclear": 240,
+      "technical_issue": 49,
+      "payment_billing_issue": 25,
+      "general_information": 18,
+      "request_for_human_support": 7,
+      "subscription_plan": 5,
+      "account_problem": 5,
+      "unauthorized_fraudulent_transaction": 4,
+      "pricing_charges": 2,
+      "delayed_delivery": 2,
+      "complaint_poor_experience": 1,
+      "account_access_login": 1,
+      "order_delivery_status": 1,
+      "password_reset": 1,
+      "refund_request": 1
+    }
+  },
+  "comcastcares": {
+    "total_queries": 611,
+    "intents": {
+      "other_unclear": 367,
+      "technical_issue": 98,
+      "complaint_poor_experience": 41,
+      "payment_billing_issue": 30,
+      "account_problem": 13,
+      "subscription_plan": 12,
+      "general_information": 10,
+      "order_delivery_status": 9,
+      "password_reset": 7,
+      "pricing_charges": 7,
+      "refund_request": 4,
+      "request_for_human_support": 4,
+      "product_service_issue": 3,
+      "account_access_login": 3,
+      "delayed_delivery": 2,
+      "unauthorized_fraudulent_transaction": 1
+    }
+  },
+  "AskAmex": {
+    "total_queries": 190,
+    "intents": {
+      "other_unclear": 87,
+      "payment_billing_issue": 53,
+      "account_problem": 8,
+      "technical_issue": 8,
+      "general_information": 8,
+      "unauthorized_fraudulent_transaction": 7,
+      "request_for_human_support": 5,
+      "account_access_login": 4,
+      "complaint_poor_experience": 3,
+      "refund_request": 2,
+      "subscription_plan": 2,
+      "order_delivery_status": 2,
+      "password_reset": 1
+    }
+  },
+  "Tesco": {
+    "total_queries": 650,
+    "intents": {
+      "other_unclear": 440,
+      "order_delivery_status": 56,
+      "technical_issue": 41,
+      "payment_billing_issue": 33,
+      "pricing_charges": 22,
+      "complaint_poor_experience": 16,
+      "refund_request": 8,
+      "subscription_plan": 7,
+      "account_access_login": 6,
+      "general_information": 5,
+      "product_service_issue": 5,
+      "password_reset": 4,
+      "account_problem": 2,
+      "request_for_human_support": 2,
+      "unauthorized_fraudulent_transaction": 1,
+      "cancellation": 1,
+      "delayed_delivery": 1
+    }
+  },
+  "idea_cares": {
+    "total_queries": 478,
+    "intents": {
+      "other_unclear": 306,
+      "payment_billing_issue": 41,
+      "technical_issue": 37,
+      "complaint_poor_experience": 31,
+      "subscription_plan": 25,
+      "general_information": 11,
+      "unauthorized_fraudulent_transaction": 8,
+      "request_for_human_support": 7,
+      "refund_request": 5,
+      "pricing_charges": 4,
+      "delayed_delivery": 2,
+      "account_problem": 1
+    }
+  },
+  "Morrisons": {
+    "total_queries": 290,
+    "intents": {
+      "other_unclear": 208,
+      "technical_issue": 28,
+      "complaint_poor_experience": 12,
+      "payment_billing_issue": 11,
+      "order_delivery_status": 10,
+      "subscription_plan": 6,
+      "general_information": 5,
+      "pricing_charges": 4,
+      "account_problem": 2,
+      "cancellation": 1,
+      "request_for_human_support": 1,
+      "product_service_issue": 1,
+      "delayed_delivery": 1
+    }
+  },
+  "SpotifyCares": {
+    "total_queries": 780,
+    "intents": {
+      "other_unclear": 436,
+      "technical_issue": 152,
+      "password_reset": 33,
+      "payment_billing_issue": 32,
+      "order_delivery_status": 20,
+      "account_access_login": 20,
+      "account_problem": 20,
+      "subscription_plan": 18,
+      "complaint_poor_experience": 16,
+      "general_information": 15,
+      "unauthorized_fraudulent_transaction": 9,
+      "pricing_charges": 3,
+      "request_for_human_support": 2,
+      "product_information": 2,
+      "refund_request": 1,
+      "product_service_issue": 1
+    }
+  },
+  "VirginTrains": {
+    "total_queries": 587,
+    "intents": {
+      "other_unclear": 383,
+      "technical_issue": 59,
+      "delayed_delivery": 42,
+      "refund_request": 29,
+      "complaint_poor_experience": 16,
+      "payment_billing_issue": 15,
+      "general_information": 13,
+      "pricing_charges": 10,
+      "product_service_issue": 6,
+      "unauthorized_fraudulent_transaction": 5,
+      "subscription_plan": 3,
+      "order_delivery_status": 2,
+      "password_reset": 2,
+      "cancellation": 1,
+      "request_for_human_support": 1
+    }
+  },
+  "GWRHelp": {
+    "total_queries": 554,
+    "intents": {
+      "other_unclear": 348,
+      "technical_issue": 62,
+      "delayed_delivery": 45,
+      "payment_billing_issue": 22,
+      "refund_request": 16,
+      "subscription_plan": 13,
+      "cancellation": 12,
+      "complaint_poor_experience": 9,
+      "product_service_issue": 6,
+      "pricing_charges": 6,
+      "general_information": 5,
+      "request_for_human_support": 3,
+      "account_problem": 3,
+      "order_delivery_status": 2,
+      "password_reset": 2
+    }
+  },
+  "AlaskaAir": {
+    "total_queries": 129,
+    "intents": {
+      "other_unclear": 87,
+      "technical_issue": 14,
+      "subscription_plan": 9,
+      "delayed_delivery": 8,
+      "request_for_human_support": 3,
+      "password_reset": 2,
+      "payment_billing_issue": 2,
+      "complaint_poor_experience": 1,
+      "product_information": 1,
+      "pricing_charges": 1,
+      "order_delivery_status": 1
+    }
+  },
+  "AmericanAir": {
+    "total_queries": 647,
+    "intents": {
+      "other_unclear": 388,
+      "technical_issue": 66,
+      "subscription_plan": 42,
+      "delayed_delivery": 27,
+      "refund_request": 24,
+      "complaint_poor_experience": 23,
+      "payment_billing_issue": 16,
+      "pricing_charges": 16,
+      "request_for_human_support": 13,
+      "general_information": 12,
+      "cancellation": 5,
+      "order_delivery_status": 5,
+      "product_service_issue": 4,
+      "account_problem": 3,
+      "password_reset": 2,
+      "account_access_login": 1
+    }
+  },
+  "Uber_Support": {
+    "total_queries": 1344,
+    "intents": {
+      "other_unclear": 657,
+      "payment_billing_issue": 151,
+      "technical_issue": 137,
+      "order_delivery_status": 79,
+      "refund_request": 63,
+      "complaint_poor_experience": 57,
+      "account_problem": 51,
+      "general_information": 35,
+      "account_access_login": 25,
+      "unauthorized_fraudulent_transaction": 21,
+      "pricing_charges": 12,
+      "cancellation": 12,
+      "password_reset": 11,
+      "request_for_human_support": 9,
+      "delayed_delivery": 6,
+      "subscription_plan": 6,
+      "product_service_issue": 5,
+      "verification_identity": 4,
+      "refund_status": 3
+    }
+  },
+  "ChaseSupport": {
+    "total_queries": 183,
+    "intents": {
+      "other_unclear": 106,
+      "payment_billing_issue": 29,
+      "account_problem": 11,
+      "technical_issue": 10,
+      "unauthorized_fraudulent_transaction": 9,
+      "request_for_human_support": 3,
+      "account_access_login": 3,
+      "complaint_poor_experience": 3,
+      "general_information": 2,
+      "password_reset": 2,
+      "refund_request": 2,
+      "subscription_plan": 2,
+      "pricing_charges": 1
+    }
+  },
+  "AskPlayStation": {
+    "total_queries": 349,
+    "intents": {
+      "other_unclear": 181,
+      "technical_issue": 71,
+      "password_reset": 23,
+      "account_problem": 15,
+      "account_access_login": 14,
+      "refund_request": 12,
+      "order_delivery_status": 11,
+      "general_information": 5,
+      "payment_billing_issue": 5,
+      "unauthorized_fraudulent_transaction": 3,
+      "subscription_plan": 3,
+      "complaint_poor_experience": 2,
+      "product_service_issue": 2,
+      "delayed_delivery": 1,
+      "pricing_charges": 1
+    }
+  },
+  "ATVIAssist": {
+    "total_queries": 305,
+    "intents": {
+      "other_unclear": 161,
+      "technical_issue": 98,
+      "order_delivery_status": 16,
+      "complaint_poor_experience": 10,
+      "delayed_delivery": 4,
+      "general_information": 4,
+      "payment_billing_issue": 3,
+      "subscription_plan": 2,
+      "password_reset": 2,
+      "refund_request": 1,
+      "account_problem": 1,
+      "account_access_login": 1,
+      "pricing_charges": 1,
+      "product_service_issue": 1
+    }
+  },
+  "XboxSupport": {
+    "total_queries": 303,
+    "intents": {
+      "other_unclear": 175,
+      "technical_issue": 74,
+      "order_delivery_status": 14,
+      "product_service_issue": 8,
+      "account_problem": 5,
+      "complaint_poor_experience": 5,
+      "general_information": 5,
+      "payment_billing_issue": 5,
+      "password_reset": 5,
+      "pricing_charges": 2,
+      "subscription_plan": 2,
+      "account_access_login": 2,
+      "refund_request": 1
+    }
+  },
+  "AskPayPal": {
+    "total_queries": 146,
+    "intents": {
+      "other_unclear": 85,
+      "payment_billing_issue": 17,
+      "technical_issue": 8,
+      "account_problem": 7,
+      "general_information": 5,
+      "refund_request": 5,
+      "password_reset": 5,
+      "unauthorized_fraudulent_transaction": 4,
+      "complaint_poor_experience": 3,
+      "account_access_login": 2,
+      "order_delivery_status": 2,
+      "product_service_issue": 1,
+      "pricing_charges": 1,
+      "delayed_delivery": 1
+    }
+  },
+  "marksandspencer": {
+    "total_queries": 315,
+    "intents": {
+      "other_unclear": 213,
+      "order_delivery_status": 30,
+      "technical_issue": 26,
+      "payment_billing_issue": 12,
+      "complaint_poor_experience": 10,
+      "refund_request": 5,
+      "pricing_charges": 4,
+      "subscription_plan": 3,
+      "product_information": 3,
+      "general_information": 3,
+      "unauthorized_fraudulent_transaction": 2,
+      "account_problem": 1,
+      "delayed_delivery": 1,
+      "product_service_issue": 1,
+      "account_access_login": 1
+    }
+  },
+  "VerizonSupport": {
+    "total_queries": 381,
+    "intents": {
+      "other_unclear": 219,
+      "technical_issue": 65,
+      "complaint_poor_experience": 24,
+      "payment_billing_issue": 15,
+      "order_delivery_status": 12,
+      "pricing_charges": 9,
+      "general_information": 9,
+      "account_access_login": 5,
+      "password_reset": 5,
+      "request_for_human_support": 4,
+      "account_problem": 4,
+      "product_service_issue": 3,
+      "subscription_plan": 3,
+      "refund_request": 2,
+      "unauthorized_fraudulent_transaction": 2
+    }
+  },
+  "SouthwestAir": {
+    "total_queries": 498,
+    "intents": {
+      "other_unclear": 331,
+      "technical_issue": 44,
+      "subscription_plan": 36,
+      "delayed_delivery": 17,
+      "complaint_poor_experience": 15,
+      "payment_billing_issue": 12,
+      "account_problem": 7,
+      "order_delivery_status": 7,
+      "general_information": 6,
+      "refund_request": 5,
+      "product_service_issue": 4,
+      "pricing_charges": 4,
+      "request_for_human_support": 4,
+      "password_reset": 2,
+      "account_access_login": 2,
+      "unauthorized_fraudulent_transaction": 2
+    }
+  },
+  "ArgosHelpers": {
+    "total_queries": 358,
+    "intents": {
+      "other_unclear": 179,
+      "order_delivery_status": 67,
+      "payment_billing_issue": 26,
+      "pricing_charges": 21,
+      "technical_issue": 19,
+      "refund_request": 17,
+      "complaint_poor_experience": 12,
+      "product_service_issue": 4,
+      "delayed_delivery": 4,
+      "unauthorized_fraudulent_transaction": 3,
+      "request_for_human_support": 3,
+      "general_information": 1,
+      "account_problem": 1,
+      "account_access_login": 1
+    }
+  },
+  "Ask_WellsFargo": {
+    "total_queries": 168,
+    "intents": {
+      "other_unclear": 96,
+      "payment_billing_issue": 19,
+      "complaint_poor_experience": 12,
+      "unauthorized_fraudulent_transaction": 8,
+      "technical_issue": 8,
+      "account_problem": 7,
+      "account_access_login": 7,
+      "refund_request": 3,
+      "general_information": 2,
+      "password_reset": 1,
+      "subscription_plan": 1,
+      "pricing_charges": 1,
+      "verification_identity": 1,
+      "order_delivery_status": 1,
+      "request_for_human_support": 1
+    }
+  },
+  "SW_Help": {
+    "total_queries": 338,
+    "intents": {
+      "other_unclear": 201,
+      "technical_issue": 36,
+      "delayed_delivery": 34,
+      "general_information": 15,
+      "refund_request": 12,
+      "subscription_plan": 12,
+      "payment_billing_issue": 9,
+      "complaint_poor_experience": 8,
+      "product_service_issue": 7,
+      "pricing_charges": 2,
+      "order_delivery_status": 1,
+      "cancellation": 1
+    }
+  },
+  "AzureSupport": {
+    "total_queries": 178,
+    "intents": {
+      "other_unclear": 93,
+      "technical_issue": 54,
+      "subscription_plan": 10,
+      "general_information": 10,
+      "payment_billing_issue": 3,
+      "password_reset": 3,
+      "account_access_login": 2,
+      "pricing_charges": 1,
+      "order_delivery_status": 1,
+      "request_for_human_support": 1
+    }
+  },
+  "AirAsiaSupport": {
+    "total_queries": 320,
+    "intents": {
+      "other_unclear": 192,
+      "refund_request": 48,
+      "technical_issue": 26,
+      "payment_billing_issue": 14,
+      "general_information": 13,
+      "delayed_delivery": 7,
+      "account_problem": 4,
+      "complaint_poor_experience": 3,
+      "product_service_issue": 3,
+      "password_reset": 2,
+      "cancellation": 2,
+      "subscription_plan": 2,
+      "order_delivery_status": 2,
+      "refund_status": 1,
+      "product_information": 1
+    }
+  },
+  "JetBlue": {
+    "total_queries": 130,
+    "intents": {
+      "other_unclear": 78,
+      "technical_issue": 15,
+      "complaint_poor_experience": 7,
+      "subscription_plan": 6,
+      "delayed_delivery": 5,
+      "pricing_charges": 4,
+      "general_information": 4,
+      "password_reset": 3,
+      "product_service_issue": 2,
+      "payment_billing_issue": 2,
+      "account_problem": 1,
+      "cancellation": 1,
+      "request_for_human_support": 1,
+      "refund_request": 1
+    }
+  },
+  "hulu_support": {
+    "total_queries": 456,
+    "intents": {
+      "other_unclear": 258,
+      "technical_issue": 93,
+      "complaint_poor_experience": 22,
+      "account_access_login": 22,
+      "subscription_plan": 11,
+      "account_problem": 10,
+      "refund_request": 8,
+      "password_reset": 8,
+      "order_delivery_status": 7,
+      "product_service_issue": 4,
+      "general_information": 3,
+      "payment_billing_issue": 3,
+      "delayed_delivery": 3,
+      "pricing_charges": 2,
+      "unauthorized_fraudulent_transaction": 1,
+      "product_information": 1
+    }
+  },
+  "AskeBay": {
+    "total_queries": 299,
+    "intents": {
+      "other_unclear": 150,
+      "order_delivery_status": 29,
+      "technical_issue": 26,
+      "refund_request": 19,
+      "unauthorized_fraudulent_transaction": 17,
+      "payment_billing_issue": 15,
+      "complaint_poor_experience": 10,
+      "general_information": 7,
+      "product_service_issue": 7,
+      "account_problem": 7,
+      "pricing_charges": 5,
+      "password_reset": 4,
+      "account_access_login": 1,
+      "verification_identity": 1,
+      "cancellation": 1
+    }
+  },
+  "AldiUK": {
+    "total_queries": 202,
+    "intents": {
+      "other_unclear": 160,
+      "technical_issue": 16,
+      "pricing_charges": 5,
+      "payment_billing_issue": 5,
+      "complaint_poor_experience": 4,
+      "subscription_plan": 4,
+      "order_delivery_status": 3,
+      "general_information": 2,
+      "refund_request": 1,
+      "account_problem": 1,
+      "product_service_issue": 1
+    }
+  },
+  "AdobeCare": {
+    "total_queries": 251,
+    "intents": {
+      "other_unclear": 116,
+      "technical_issue": 97,
+      "complaint_poor_experience": 8,
+      "product_information": 7,
+      "subscription_plan": 5,
+      "password_reset": 3,
+      "general_information": 3,
+      "account_access_login": 2,
+      "payment_billing_issue": 2,
+      "account_problem": 2,
+      "request_for_human_support": 2,
+      "delayed_delivery": 1,
+      "product_service_issue": 1,
+      "pricing_charges": 1,
+      "order_delivery_status": 1
+    }
+  },
+  "McDonalds": {
+    "total_queries": 40,
+    "intents": {
+      "other_unclear": 37,
+      "technical_issue": 1,
+      "order_delivery_status": 1,
+      "request_for_human_support": 1
+    }
+  },
+  "CoxHelp": {
+    "total_queries": 155,
+    "intents": {
+      "other_unclear": 100,
+      "technical_issue": 17,
+      "complaint_poor_experience": 11,
+      "payment_billing_issue": 8,
+      "pricing_charges": 5,
+      "general_information": 3,
+      "unauthorized_fraudulent_transaction": 2,
+      "subscription_plan": 2,
+      "account_access_login": 2,
+      "request_for_human_support": 1,
+      "cancellation": 1,
+      "password_reset": 1,
+      "product_service_issue": 1,
+      "refund_request": 1
+    }
+  },
+  "airtel_care": {
+    "total_queries": 133,
+    "intents": {
+      "other_unclear": 84,
+      "payment_billing_issue": 10,
+      "complaint_poor_experience": 9,
+      "subscription_plan": 8,
+      "technical_issue": 7,
+      "unauthorized_fraudulent_transaction": 6,
+      "request_for_human_support": 6,
+      "account_problem": 2,
+      "refund_request": 1
+    }
+  }
+}

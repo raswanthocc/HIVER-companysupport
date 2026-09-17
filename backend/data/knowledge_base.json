@@ -1,0 +1,121 @@
+{
+  "version": "1.0.0",
+  "brand": "CompanySupport",
+  "official_dm_link": "https://twitter.com/messages/compose?recipient_id=CompanySupport",
+  "policies": {
+    "privacy_rule": "NEVER ask customers to tweet serial numbers, IMEI, Account ID email, passwords, or order numbers publicly. ALWAYS escalate to private DM.",
+    "hardware_safety_rule": "Any report of battery swelling, thermal runaway, smoke, or screen lifting must be immediately escalated to human safety tier with urgent Genius Bar inspection.",
+    "billing_rule": "Never promise or issue refunds on public Twitter. Direct customers to company.com/billing or DM for account verification.",
+    "tone_guidelines": "Empathetic, clear, professional. Acknowledge frustration, ask diagnostic questions (device model, OS version, steps tried), avoid blaming the customer."
+  },
+  "intent_catalog": {
+    "software_os": {
+      "name": "Software & Operating System",
+      "description": "Issues related to OS/macOS updates, battery drain after update, app crashes, freezing, and boot loops.",
+      "diagnostic_questions": [
+        "Which model do you have and what OS version is currently installed in Settings > General > About?",
+        "Did this issue begin immediately after a recent update?",
+        "Have you tried force restarting your device since this began?"
+      ],
+      "troubleshooting_steps": [
+        "Force restart your device: press and quickly release Volume Up, then Volume Down, then hold the Side button until the Company logo appears.",
+        "Check for pending app updates in App Store > Profile > Update All.",
+        "Review Battery Usage in Settings > Battery to see which apps are consuming power.",
+        "Ensure sufficient free storage under Settings > General > device Storage."
+      ],
+      "default_action": "auto_handle",
+      "escalation_conditions": [
+        "Issue persists after reboot and settings reset",
+        "Customer reports device stuck in infinite boot loop or bricked"
+      ]
+    },
+    "hardware_defect": {
+      "name": "Hardware & Physical Defects",
+      "description": "Physical damage, cracked screen, swollen battery, speaker distortion, microphone failure, charging port issues.",
+      "diagnostic_questions": [
+        "Is there any physical damage or liquid contact with the device?",
+        "Does the battery or enclosure show any visible bulging or screen separation?"
+      ],
+      "troubleshooting_steps": [
+        "Inspect the charging port for lint or debris using a flashlight.",
+        "Test audio across multiple apps and inspect speaker grilles.",
+        "Check Battery Health in Settings > Battery > Battery Health."
+      ],
+      "default_action": "escalate",
+      "escalation_conditions": [
+        "Visible battery swelling / enclosure lift",
+        "Cracked screen requiring Genius Bar booking",
+        "Hardware failure requiring repair"
+      ]
+    },
+    "account_security": {
+      "name": "Account ID & Account Security",
+      "description": "Forgotten Account ID password, locked account, Two-Factor Authentication issues, activation lock, iCloud access.",
+      "diagnostic_questions": [
+        "Are you seeing an error stating your Account ID has been locked for security reasons?",
+        "Do you have access to a trusted phone number or device?"
+      ],
+      "troubleshooting_steps": [
+        "Reset your password securely at https://company.com/forgot",
+        "Follow account recovery steps at https://company.com/support/HT204915",
+        "Ensure your trusted devices are connected to Wi-Fi to receive verification codes."
+      ],
+      "default_action": "escalate",
+      "escalation_conditions": [
+        "Account locked and customer unable to pass automated self-service recovery",
+        "Suspicion of account compromise / unauthorized access",
+        "Activation lock on pre-owned device"
+      ]
+    },
+    "billing_subscription": {
+      "name": "Billing, App Store & Subscriptions",
+      "description": "Unexpected charges, duplicate billing, in-app purchases, subscription management, refund requests.",
+      "diagnostic_questions": [
+        "Does the charge appear in your Purchase History at https://company.com/billing?",
+        "Is this an active recurring subscription or a one-time purchase?"
+      ],
+      "troubleshooting_steps": [
+        "View and cancel subscriptions in Settings > [Your Name] > Subscriptions.",
+        "Review purchase history and request refunds at https://company.com/billing",
+        "Check if Family Sharing members made the purchase."
+      ],
+      "default_action": "escalate",
+      "escalation_conditions": [
+        "Customer requests refund or disputes credit card charge",
+        "Unrecognized fraud or continuous unauthorized charges"
+      ]
+    },
+    "connectivity_features": {
+      "name": "Connectivity & Feature How-To",
+      "description": "Wi-Fi dropping, Bluetooth accessories failing to pair, AirDrop discovery, cellular service issues, CarPlay.",
+      "diagnostic_questions": [
+        "Does this happen with all Wi-Fi networks/Bluetooth devices or only one specific accessory?",
+        "Have you tried toggling Airplane Mode on for 30 seconds and off?"
+      ],
+      "troubleshooting_steps": [
+        "Toggle Airplane Mode on for 30 seconds, then off.",
+        "Forget Wi-Fi network and reconnect in Settings > Wi-Fi.",
+        "Reset Network Settings in Settings > General > Reset > Reset Network Settings.",
+        "Ensure AirDrop receiving is set to 'Everyone' or 'Contacts Only' in Control Center."
+      ],
+      "default_action": "auto_handle",
+      "escalation_conditions": [
+        "Hardware cellular modem failure ('No Service' hardware recall)",
+        "Repeated failure after network reset"
+      ]
+    },
+    "general_feedback": {
+      "name": "General Feedback & Rants",
+      "description": "User venting frustration, product feedback, sarcastic remarks, brand commentary without actionable defect.",
+      "diagnostic_questions": [],
+      "troubleshooting_steps": [
+        "Acknowledge the customer's feedback empathetically.",
+        "Provide the official Company feedback portal link: https://www.company.com/feedback"
+      ],
+      "default_action": "auto_handle",
+      "escalation_conditions": [
+        "Customer threatens brand PR crisis or requests senior management escalation"
+      ]
+    }
+  }
+}

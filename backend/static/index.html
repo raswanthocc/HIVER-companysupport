@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Brand AI Customer Support Agent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand-header">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+                <div class="brand-title">
+                    <h2>Support Agent</h2>
+                    <span class="badge-tag">Multi-Brand AI</span>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <label for="brandSelect"><i class="fa-solid fa-building-user"></i> Target Brand</label>
+                <div class="custom-select-wrapper">
+                    <select id="brandSelect" class="custom-select">
+                        <option value="All Brands">All Brands (Universal)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <label><i class="fa-solid fa-bolt"></i> Sample Query Presets</label>
+                <div id="presetsContainer" class="presets-list">
+                    <!-- Presets inserted dynamically -->
+                </div>
+            </div>
+
+            <div class="sidebar-section stats-box">
+                <div class="stat-item">
+                    <i class="fa-solid fa-database"></i>
+                    <div>
+                        <span class="stat-value">71,000+</span>
+                        <span class="stat-label">TWCS Vector Pairs</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-brain"></i>
+                    <div>
+                        <span class="stat-value">Gemini 3.6</span>
+                        <span class="stat-label">LLM Synthesizer</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <div>
+                        <span class="stat-value">Handoff Rules</span>
+                        <span class="stat-label">Safety Protocol</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Workspace -->
+        <main class="main-content">
+            <!-- Top Navbar -->
+            <header class="top-navbar">
+                <div class="active-brand-info">
+                    <span class="status-dot"></span>
+                    <h3 id="currentBrandName">@All Brands</h3>
+                    <span class="pill-badge" id="brandPill">TWCS RAG Engine</span>
+                </div>
+                <div class="nav-actions">
+                    <button id="toggleRulesBtn" class="btn-secondary" title="View Human Handoff Policy">
+                        <i class="fa-solid fa-shield-cat"></i> Handoff Policy
+                    </button>
+                    <button id="toggleEvidenceBtn" class="btn-secondary" title="View ChromaDB Evidence">
+                        <i class="fa-solid fa-magnifying-glass-nodes"></i> Evidence Drawer
+                    </button>
+                    <button id="clearChatBtn" class="btn-icon" title="Clear Chat History">
+                        <i class="fa-solid fa-trash-can"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Chat Messages Log -->
+            <div id="chatContainer" class="chat-container">
+                <!-- Welcome Card -->
+                <div class="welcome-card">
+                    <div class="welcome-icon"><i class="fa-solid fa-comments"></i></div>
+                    <h2>Welcome to Multi-Brand Agentic RAG</h2>
+                    <p>Select a brand on the left sidebar (e.g., <b>@AmazonHelp</b>, <b>@AppleSupport</b>, <b>@SpotifyCares</b>) and ask a customer question to see real-time vector retrieval, human handoff safety checks, and Gemini LLM synthesis in action!</p>
+                </div>
+            </div>
+
+            <!-- Typing Indicator -->
+            <div id="typingIndicator" class="typing-indicator hidden">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <span>Agent analyzing ChromaDB & synthesizing response...</span>
+            </div>
+
+            <!-- Input Box -->
+            <div class="input-container">
+                <form id="chatForm" class="chat-form">
+                    <textarea id="userInput" placeholder="Type a customer inquiry or select a preset from the sidebar..." rows="2" required></textarea>
+                    <button type="submit" id="sendBtn" class="btn-primary">
+                        <span>Send</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </main>
+
+        <!-- Human Handoff Rules Modal -->
+        <div id="rulesDrawer" class="evidence-drawer hidden">
+            <div class="drawer-header">
+                <h3><i class="fa-solid fa-shield-halved"></i> Human Handoff Policy & Safety Rules</h3>
+                <button id="closeRulesBtn" class="btn-icon">&times;</button>
+            </div>
+            <div class="drawer-body">
+                <div class="rule-card danger">
+                    <div class="rule-card-header">
+                        <i class="fa-solid fa-user-lock"></i>
+                        <span>Account Security & Fraud</span>
+                    </div>
+                    <p>Inquiries involving unauthorized logins, hacked accounts, fraud, or identity compromise are immediately transferred to human security agents.</p>
+                    <div class="rule-keywords">Triggers: <em>hacked, stolen, unauthorized, compromised, fraud</em></div>
+                </div>
+
+                <div class="rule-card warning">
+                    <div class="rule-card-header">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <span>Lost & Stolen Cards</span>
+                    </div>
+                    <p>Card cancellations and stolen card blocks require multi-factor human authorization for customer financial protection.</p>
+                    <div class="rule-keywords">Triggers: <em>lost card, stolen card, block card, freeze card</em></div>
+                </div>
+
+                <div class="rule-card danger">
+                    <div class="rule-card-header">
+                        <i class="fa-solid fa-fire"></i>
+                        <span>Hardware Safety & Fire Hazards</span>
+                    </div>
+                    <p>Physical hazards such as smoking batteries, sparking devices, or electrical shocks bypass AI to reach emergency repair teams.</p>
+                    <div class="rule-keywords">Triggers: <em>smoke, spark, catch fire, explode, swollen battery</em></div>
+                </div>
+
+                <div class="rule-card info">
+                    <div class="rule-card-header">
+                        <i class="fa-solid fa-key"></i>
+                        <span>PII & Credential Protection</span>
+                    </div>
+                    <p>Sharing sensitive credentials (SSN, credit card numbers, passwords) automatically routes to a secure private human DM.</p>
+                    <div class="rule-keywords">Triggers: <em>SSN, credit card number, password, CVV</em></div>
+                </div>
+
+                <div class="rule-card warning">
+                    <div class="rule-card-header">
+                        <i class="fa-solid fa-gavel"></i>
+                        <span>Legal Disputes</span>
+                    </div>
+                    <p>Legal actions or attorney communications are handled directly by specialized legal support representatives.</p>
+                    <div class="rule-keywords">Triggers: <em>lawyer, lawsuit, attorney, court action</em></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Evidence Drawer Modal -->
+        <div id="evidenceDrawer" class="evidence-drawer hidden">
+            <div class="drawer-header">
+                <h3><i class="fa-solid fa-database"></i> ChromaDB Vector Matches & Evidence</h3>
+                <button id="closeDrawerBtn" class="btn-icon">&times;</button>
+            </div>
+            <div id="evidenceContent" class="drawer-body">
+                <p class="empty-state">Submit a query to inspect raw historical ChromaDB evidence matches.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

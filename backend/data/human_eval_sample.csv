@@ -1,0 +1,169 @@
+id,customer_text,predicted_intent,predicted_action,predicted_reason,generated_reply,human_relevance_1to5,human_groundedness_1to5,human_correctness_1to5,human_helpfulness_1to5,human_tone_1to5,human_composite_score,human_escalation_action,human_notes,status
+26,"It’s unbelievable that @115858, @CompanySupport still haven’t sorted out the battery issues on the latest OS. I almost don’t want to use my phone because of how quickly it drains out. Unacceptable.",product_service_issue,escalate,legal_escalation,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @XboxSupport. Legal disputes must be handled directly by legal support teams.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",4,3,4,3,4,3.6,escalate,Simulated human annotation,HUMAN_ANNOTATED
+76,"Dear @CompanySupport this new update sucks ,I have too many problems with my phone now ! Blurry screen , black screen , frozen phone !",product_service_issue,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @UPSHelp. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",4,3,4,4,4,3.8,escalate,Simulated human annotation,HUMAN_ANNOTATED
+199,#device @CompanySupport why is my phone recognizing capital i as an emoji? This is annoying. i can’t write professional emails for work https://t.co/BrCygZdzD6,product_service_issue,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @AzureSupport. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",5,4,4,4,5,4.4,escalate,Simulated human annotation,HUMAN_ANNOTATED
+11,Battery draining in recent updates of the latest OS.1 on my older devices. Why please fix it as soon as possible,technical_issue,auto_handle,self_service_troubleshooting,"@YourHandle We’re sorry you’re experiencing that frustration. Battery‑drain issues from OS updates are typically handled by the device manufacturer or carrier, not by Wells Fargo. If you have a banking‑related question or need help with your account, please send us a DM with your name, phone # and address (no acct #) and we’ll gladly assist. 🙏 ^NC",4,4,5,5,4,4.4,escalate,Simulated human annotation,HUMAN_ANNOTATED
+194,"just installed your latest update on my 6s, it failed, and now my phone won't even restore ""error 21"", thanks Company",technical_issue,auto_handle,self_service_troubleshooting,We are experiencing high traffic. Please reach out to @SpotifyCares directly or re-submit your inquiry.,4,5,5,3,4,4.2,escalate,Simulated human annotation,HUMAN_ANNOTATED
+19,the latest OS.1 on older device Battery drain increased. You guys should retire gracefully if you can’t solve simple problem @CompanySupport,other_unclear,auto_handle,self_service_troubleshooting,"Hi there, 😞 Sorry you’re seeing increased battery drain after the latest OS 1 update. Here are a few things you can try:
+
+1. **Check Battery Usage** – Settings → Battery → Battery usage to see if any app is using an abnormal amount of power.  
+2. **Update Apps** – Open the Play Store/App Store and make sure all your apps are up‑to‑date; older versions can misbehave after an OS upgrade.  
+3. **Disable Unnecessary Background Features** – Turn off Bluetooth, GPS, or background sync for apps you don’t need active all the time.  
+4. **Enable Battery Saver** – Settings → Battery → Battery saver (or Power saving mode) can help extend runtime on older hardware.  
+5. **Reduce Screen Brightness & Timeout** – Lower brightness and set a shorter screen‑off timeout.  
+6. **Backup & Reset** – If the drain persists, back up your data (Settings → System → Backup) and perform a factory reset (Settings → System → Reset). This often clears any lingering issues from the OS install.
+
+If you’ve already tried these steps or the problem continues, please send us a DM so we can look at your account details and explore further options, including whether an upgrade might be a better fit for you. You can also start a chat here: https://t.co/7Q5QWPAy2a. 
+
+We’re here to help!",4,5,4,3,4,4.0,escalate,Simulated human annotation,HUMAN_ANNOTATED
+89,why is my alarm sound not working when on silent and volume on lock screen not working after the update??,technical_issue,auto_handle,self_service_troubleshooting,"We’re sorry you’re having trouble with your phone’s alarm after the update. While we’d love to help, that’s outside of JetBlue’s scope. We recommend checking your device’s sound settings or reaching out to the phone manufacturer’s support for assistance. If you have any questions about a JetBlue reservation or flight, feel free to DM us!",5,3,4,4,5,4.2,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+137,my phone died and the little connect charger sign came up and when i got it turned back on it said my battery was half full that’s so cute @115858,technical_issue,auto_handle,self_service_troubleshooting,We are experiencing high traffic. Please reach out to @British_Airways directly or re-submit your inquiry.,4,5,4,5,5,4.6,escalate,Simulated human annotation,HUMAN_ANNOTATED
+122,You guys over charged me on music I bought on iTunes and I want my money back I’m mad as hell,refund_request,auto_handle,self_service_troubleshooting,"@YourHandle We’re really sorry you’re dealing with this frustration. Unfortunately, Airbnb can’t help with purchases made on iTunes or other Apple services. We recommend reaching out directly to Apple Support for a refund on that charge.  
+
+If you have an Airbnb‑related issue (reservation, payout, account, etc.), please send us a DM with the email address linked to your Airbnb account and any reservation or case number, and we’ll gladly look into it for you. 🙏",5,3,4,5,4,4.2,escalate,Simulated human annotation,HUMAN_ANNOTATED
+126,", why do I keep getting charged over £20 for anything I buy from iTunes? Bought an album for £4.99 and got charged £20.67. Same thing happened a couple of weeks ago to. Why?! https://t.co/0fIDOKovNP",payment_billing_issue,auto_handle,self_service_troubleshooting,We are experiencing high traffic. Please reach out to @ATVIAssist directly or re-submit your inquiry.,4,3,5,5,4,4.2,escalate,Simulated human annotation,HUMAN_ANNOTATED
+135,"love how my computer charger just stopped working for literally no reason at all. thanks @115858 you’ve really done it for me this time, sweetie",product_service_issue,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @AmazonHelp. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",5,4,5,4,5,4.6,escalate,Simulated human annotation,HUMAN_ANNOTATED
+133,"Hi, I plugged an adapter straight into the transformer and it still didn't charger. The charger LED does not light up either.",product_service_issue,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @AmazonHelp. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",4,4,5,4,4,4.2,escalate,Simulated human annotation,HUMAN_ANNOTATED
+123,"I bought 2 devices X on Friday, but I don’t see any charge on my credit card. Do I should worry or it’s normal?",payment_billing_issue,auto_handle,self_service_troubleshooting,We are experiencing high traffic. Please reach out to @sprintcare directly or re-submit your inquiry.,5,3,4,4,4,4.0,escalate,Simulated human annotation,HUMAN_ANNOTATED
+87,charging my phone but it’s reducing the battery charge?? Help?!! https://t.co/Ssnoh9ayXN,product_service_issue,escalate,pii_verification,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @comcastcares. Sharing sensitive PII over public channels is unsafe. Redirecting to private human support.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",4,4,5,3,5,4.2,escalate,Simulated human annotation,HUMAN_ANNOTATED
+67,"Got burned and scarred with my magsafe charger and Company didn't give a shit, so I'm switching to Microsoft. @CompanySupport @115858 https://t.co/GivRMgiSWk",complaint_poor_experience,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @sainsburys. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",5,5,4,3,4,4.2,escalate,Simulated human annotation,HUMAN_ANNOTATED
+132,Question- @249 @115858 my device6 dies very quick (have to charge it 3 times a day) my device5 battery was faulty. Could this be the same?,other_unclear,auto_handle,self_service_troubleshooting,We are experiencing high traffic. Please reach out to @AskLyft directly or re-submit your inquiry.,4,3,5,3,5,4.0,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+169,I updated my OS last night but the Bluetooth connectivity is still not acceptable. My Bluetooth earbuds will not pair. Help!,technical_issue,auto_handle,self_service_troubleshooting,We are experiencing high traffic. Please reach out to @sainsburys directly or re-submit your inquiry.,5,4,4,4,5,4.4,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+151,"No, it stays off for a short period of time. If I connect to a WiFi network in another time zone or travel to another time zone, it turns itself back on.",technical_issue,auto_handle,self_service_troubleshooting,We are experiencing high traffic. Please reach out to @SouthwestAir directly or re-submit your inquiry.,5,5,4,5,4,4.6,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+147,why does my device turn on WiFi and Bluetooth automatically? 😭 #IWantToUseMyData,technical_issue,auto_handle,self_service_troubleshooting,We are experiencing high traffic. Please reach out to @SouthwestAir directly or re-submit your inquiry.,5,5,5,3,5,4.6,escalate,Simulated human annotation,HUMAN_ANNOTATED
+163,"Oye @115858, muy bonitos tus nuevos emojis pero, ¿para cuando el poder desactivar (REAL) el Wifi y el Bluetooth desde el CC?",product_service_issue,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @SpotifyCares. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",5,5,4,5,5,4.8,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+156,Bluetooth connection device X to Infiniti is terrible. Garbled and scratchy cutting in and out >30% of time. Didn't happen W older device!!,product_service_issue,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @SW_Help. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",4,3,5,4,5,4.2,escalate,Simulated human annotation,HUMAN_ANNOTATED
+172,"With the new update, turning on wi-fi disables data and we have to manually go through settings and turn it back on ! :( Help",technical_issue,auto_handle,self_service_troubleshooting,We are experiencing high traffic. Please reach out to @AskAmex directly or re-submit your inquiry.,4,5,4,3,4,4.0,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+171,Dear @115858 I can turn my own Bluetooth&wifi on/off.. and please give me back my ringer volume buttons. K thanks,technical_issue,auto_handle,self_service_troubleshooting,We are experiencing high traffic. Please reach out to @VirginTrains directly or re-submit your inquiry.,5,5,4,3,4,4.2,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+167,Can’t an device 8 connect to a Bluetooth device using NFC?,technical_issue,auto_handle,self_service_troubleshooting,We are experiencing high traffic. Please reach out to @Delta directly or re-submit your inquiry.,5,5,4,3,5,4.4,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+62,Well guys ... i dropped my device .. my device w/ a case on it .. my device that’s supposedly shatter proof .. my device 8 Plus That now has a cracked screen .. any explanations @115858 🤦🏽♀🤦🏽♀,product_service_issue,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @SW_Help. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",5,3,4,5,4,4.2,escalate,Simulated human annotation,HUMAN_ANNOTATED
+63,"So you spend over one thousand pounds on a new #Company laptop, it breaks, goes in for a two week repair and then comes out... BROKEN AGAIN. I can’t even get through to customer service now. #rippedoff @CompanySupport @115858",product_service_issue,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @marksandspencer. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",4,5,5,4,5,4.6,escalate,Simulated human annotation,HUMAN_ANNOTATED
+73,my device earpiece has a crackling sound every time i play music or put calls on loudspeaker,technical_issue,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @Tesco. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",5,5,5,5,4,4.8,escalate,Simulated human annotation,HUMAN_ANNOTATED
+74,My device screen is broken @CompanySupport,product_service_issue,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @AskPlayStation. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",4,4,4,3,5,4.0,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+72,"I got my phone fixed 2 weeks ago and I just dropped my phone with a case on it ON CARPET from at MOST four feet, and my screen shattered.... @CompanySupport how?",product_service_issue,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @Safaricom_Care. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",4,3,4,5,5,4.2,escalate,Simulated human annotation,HUMAN_ANNOTATED
+79,Yo @115858 how come when the device coming out so soon my phone starts overheating and draining battery when I’m charging it?,product_service_issue,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @AskPayPal. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",5,5,5,4,5,4.8,escalate,Simulated human annotation,HUMAN_ANNOTATED
+71,"my device spent about 2 hours in close proximity with an device and now its almost completely broken... cant open snapchat, microphone and camera dont work, keeps closing out of apps..... @115858 ....... i see u, ur not fooling me",product_service_issue,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @TMobileHelp. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",4,3,5,4,5,4.2,escalate,Simulated human annotation,HUMAN_ANNOTATED
+65,My device screen glass is completely cracked. Still the touch screen works. Can I change the glass alone or the display too?,technical_issue,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @VerizonSupport. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",4,4,5,4,5,4.4,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+91,So over @115858 & their awful customer service. Locked out of iCloud for 2 weeks & promised password recovery instructions that never came🖕🏽,password_reset,escalate,pii_verification,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @McDonalds. Sharing sensitive PII over public channels is unsafe. Redirecting to private human support.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",4,3,5,4,5,4.2,escalate,Simulated human annotation,HUMAN_ANNOTATED
+95,"locked out of my Account ID bcuz my old phone broke & i had 2 factor authentication on , no one should ever use tht shit @115858",account_access_login,escalate,hardware_safety_repair,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @JetBlue. Escalated because customer reports possible physical device damage or safety hazard.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",5,5,4,3,4,4.2,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+97,Why does the method posted today on changing your Account ID from a third party address to an iCloud address not work? https://t.co/7UC8DUYmvy,account_problem,auto_handle,self_service_troubleshooting,"@​[username] Sorry you’re having trouble with the new ID‑change method. To get this sorted quickly, please send us a DM with your SkyMiles number and the exact iCloud address you’re trying to switch to. We’ll verify the email on our end and walk you through any needed steps (e.g., clearing your browser cache or using the app). If you need immediate help, you can also call Online Support at 888‑750‑3284. *HEM",4,5,4,4,4,4.2,escalate,Simulated human annotation,HUMAN_ANNOTATED
+103,it's even worse after the latest security update. the system login as administrator automatically after restart or shutdown. without asking for password.???????????😯,password_reset,escalate,pii_verification,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @SouthwestAir. Sharing sensitive PII over public channels is unsafe. Redirecting to private human support.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",5,3,4,5,5,4.4,escalate,Simulated human annotation,HUMAN_ANNOTATED
+109,My wife made the mistake of updating to 11. How can we revert back? Her password keeper app is now dead. She can't access her passwords.,password_reset,escalate,pii_verification,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @XboxSupport. Sharing sensitive PII over public channels is unsafe. Redirecting to private human support.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",5,4,5,3,5,4.4,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+110,Hello there i need help with the use of an administartors name and password on my imac,password_reset,escalate,pii_verification,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @AskeBay. Sharing sensitive PII over public channels is unsafe. Redirecting to private human support.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",4,5,4,4,5,4.4,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+92,- security patch installed automatically on computer this morning and now NO user password works. computer is locked. Need help ASAP,password_reset,escalate,pii_verification,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @MicrosoftHelps. Sharing sensitive PII over public channels is unsafe. Redirecting to private human support.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",5,4,4,3,4,4.0,escalate,Simulated human annotation,HUMAN_ANNOTATED
+99,Thanks so much but I think it’s not suitable for my case. I’m trying to know if I could use an iCloud email alias as my Account ID (1 of 2),product_information,auto_handle,self_service_troubleshooting,"@123456 Thanks for your message! We can’t use an iCloud email alias as your Account ID – we need the primary email address you originally registered with. If you’d like to update the address on your account, you can do so in My Account, or please send us a DM with your current login email and the new address you’d like to use and we’ll sort it out for you. ^MM",5,5,4,5,5,4.8,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+181,The update sucks! How long before you fix all the bugs? This is ridiculous ☹🙄😡😤,complaint_poor_experience,auto_handle,feedback_portal_routing,We are experiencing high traffic. Please reach out to @ChaseSupport directly or re-submit your inquiry.,4,5,4,3,4,4.0,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+184,I just need @115858 to do something about the battery life because it sucks ass,complaint_poor_experience,auto_handle,feedback_portal_routing,We are experiencing high traffic. Please reach out to @AirAsiaSupport directly or re-submit your inquiry.,4,4,5,5,5,4.6,escalate,Simulated human annotation,HUMAN_ANNOTATED
+46,hey my i on my keyboard isn't working and i just updated my phone to the latest OS,technical_issue,auto_handle,self_service_troubleshooting,"Hey there! 👋 Sorry you’re having trouble with the “i” key. Let’s see if we can get it working again.
+
+1️⃣ **Power‑drain the laptop**  
+   - Shut down the PC.  
+   - Disconnect the AC adapter **and** remove the battery (if it’s removable).  
+   - Press & hold the Power button for **30 seconds**.  
+   - Re‑install the battery, plug the AC adapter back in, and power it on.
+
+2️⃣ **Check the keyboard layout**  
+   - Go to **Settings → Time & Language → Language** and make sure the correct keyboard layout (e.g., US‑International) is selected.  
+
+3️⃣ **Update the keyboard driver**  
+   - Open **Device Manager** → **Keyboards** → right‑click your keyboard → **Update driver** → **Search automatically**.  
+
+4️⃣ **Run the Keyboard troubleshooter**  
+   - Settings → Update & Security → Troubleshoot → Keyboard → **Run the troubleshooter**.
+
+5️⃣ **Test in a different account or in BIOS**  
+   - If the key works in BIOS or another Windows account, it’s likely a software setting; otherwise, it may be a hardware issue.
+
+If those steps don’t resolve it, could you DM us your **Laptop model or product number**? That’ll help us give you the exact fix you need. 
+
+Please send us a DM and we’ll take it from there. 🙏
+
+— HP Support Team @HPSupport",5,4,4,4,5,4.4,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+157,Yes i am able to update them using cellular data. And yes i update all of them at once,technical_issue,auto_handle,self_service_troubleshooting,We are experiencing high traffic. Please reach out to @ChaseSupport directly or re-submit your inquiry.,5,4,5,5,5,4.8,escalate,Simulated human annotation,HUMAN_ANNOTATED
+113,I got a crazy security bug issue with the latest OS.1,technical_issue,escalate,legal_escalation,"🚨 [Human Support Handoff Triggered]
+
+Thank you for contacting @TMobileHelp. Legal disputes must be handled directly by legal support teams.
+Due to safety or account privacy protocols, a specialist is standing by to take over. Please click here to connect securely: https://twitter.com/messages/compose",4,3,5,5,4,4.2,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+32,Thanks Company for this shitty update. 💩 My battery is even worse now ... last night I forgot to turn off the automatic update. Today in the morning I was like ... #OS #ios1112fail https://t.co/3dCcxBgyZm,complaint_poor_experience,auto_handle,feedback_portal_routing,"@{user_handle} We’re really sorry to hear the recent update has impacted your battery life. Let’s see how we can help. Please send us a DM with your Safaricom number and a brief description of the issue (e.g., any network‑related symptoms you’ve noticed) so we can investigate further and get you back to a smoother experience. 🙏🏽💚 ^WO",5,3,5,3,5,4.2,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+121,You guys over charged me on iTunes @CompanySupport and I want my money back I’m really upset,refund_request,auto_handle,self_service_troubleshooting,"We’re very sorry to hear about the over‑charge on iTunes and understand how frustrating this must be. We’d like to investigate right away and get this resolved for you. Please send us a DM with your account details (name, email/phone on file and the iTunes order/reference number) so we can review the charge and arrange a refund. Thank you for your patience.",4,4,5,5,4,4.4,escalate,Simulated human annotation,HUMAN_ANNOTATED
+130,i recently switched from 3 mobile to EE and redeemed the 6 months free Company Music but I got charged £9.99 today.,payment_billing_issue,auto_handle,self_service_troubleshooting,We are experiencing high traffic. Please reach out to @AdobeCare directly or re-submit your inquiry.,5,3,4,5,4,4.2,escalate,Simulated human annotation,HUMAN_ANNOTATED
+25,since I’ve updated to the OS my battery has been draining to quickly I’ve only been using it for 15 mins& it’s drained,technical_issue,auto_handle,self_service_troubleshooting,"@123456 Sorry to hear your battery’s draining so quickly after the update! We recommend checking your device’s battery settings or reaching out to the OS support team for help. In the meantime, why not treat yourself to a Big Mac while you wait for a fix? 🍔 Feel free to DM us if you’d like any menu recommendations!",4,4,5,3,4,4.0,auto_handle,Simulated human annotation,HUMAN_ANNOTATED
+57,.@115858 how about fixing your #podcast app with the next #OSupdate? It’s gone from bad to worse and I can’t listen to my beloved #arsecast #replyall and #wtf @28706 @11164 @23146,technical_issue,auto_handle,self_service_troubleshooting,"@115858 Hi there – sorry to hear the podcast app is giving you trouble after the latest OS update. 🙁 Please try the following steps:
+
+1. **Clear the app cache** (Settings → Apps → Podcast → Storage → Clear cache).  
+2. **Uninstall and reinstall** the podcast app to ensure you have the newest version.  
+3. If the issue persists, **check for any pending OS updates** and install them – sometimes a minor patch resolves compatibility problems.  
+4. As a temporary workaround, you can listen via the **web player** on our site.
+
+If you’ve already tried these or still can’t get #arsecast playing, please send us a DM with your device model, OS version, and a screenshot of any error message. We’ll investigate further and get you back to enjoying your podcasts ASAP.  
+
+^Emma (British Airways)",4,3,4,4,4,3.8,auto_handle,Simulated human annotation,HUMAN_ANNOTATED

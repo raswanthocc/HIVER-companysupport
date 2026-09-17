@@ -1,0 +1,40 @@
+{
+  "handoff_triggers": [
+    {
+      "category": "account_security",
+      "keywords": ["hacked", "stolen", "unauthorized", "compromised", "fraud", "scam", "identity theft"],
+      "action": "human_handoff",
+      "risk_level": "CRITICAL",
+      "explanation": "Security or account compromise requires immediate human verification."
+    },
+    {
+      "category": "stolen_or_lost_card",
+      "keywords": ["lost card", "stolen card", "card stolen", "block card", "freeze card", "lost my card"],
+      "action": "human_handoff",
+      "risk_level": "HIGH",
+      "explanation": "Card loss/cancellation requires secure human authorization."
+    },
+    {
+      "category": "hardware_safety_fire",
+      "keywords": ["smoke", "spark", "catch fire", "caught fire", "explode", "exploded", "burning", "electric shock"],
+      "action": "human_handoff",
+      "risk_level": "CRITICAL",
+      "explanation": "Physical safety hazard requires immediate escalation and specialist response."
+    },
+    {
+      "category": "pii_verification",
+      "keywords": ["ssn", "social security", "credit card number", "cvv", "password", "bank account number"],
+      "action": "human_handoff",
+      "risk_level": "HIGH",
+      "explanation": "Sharing sensitive PII over public channels is unsafe. Redirecting to private human support."
+    },
+    {
+      "category": "legal_escalation",
+      "keywords": ["lawyer", "lawsuit", "sue", "attorney", "court", "legal action"],
+      "action": "human_handoff",
+      "risk_level": "HIGH",
+      "explanation": "Legal disputes must be handled directly by legal support teams."
+    }
+  ],
+  "default_handoff_protocol": "Thank you for reaching out. Due to security, safety, or account privacy policies, this request requires specialized human assistance. Please click the private link to connect directly with a representative."
+}
