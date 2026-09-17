@@ -33,12 +33,17 @@ cd ..
 ```
 
 ### Step 4: Environment Configuration
-The repository includes a pre-configured [`.env`](.env) file out of the box with ready-to-use API credentials:
+Create a `.env` file in the project root directory and paste your API credentials:
 ```env
-GEMINI_API_KEY=your_gemini_api_key
+# Google Gemini API Key
+GEMINI_API_KEY=your_gemini_api_key_here
 GEMINI_MODEL=gemini-flash-lite-latest
+
+# Optional Groq Fallback API Keys (comma-separated for key rotation)
 GROQ_API_KEYS=your_groq_key_1,your_groq_key_2,your_groq_key_3
 ```
+
+
 
 ---
 
